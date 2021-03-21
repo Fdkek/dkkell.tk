@@ -1,6 +1,6 @@
 
 # 采用在线IDE，更新git/更新旧的go版本
-点击[主页](https://github.com/CHHQ1/hq/edit/gh-pages/index.html) 
+点击[主页](https://github.com/CHHQ1/hq/blob/gh-pages/index.md) 
 
 今天学习用goormIDE在线IDE学习git，原来在上家公司学了一点，今天重拾起来：
 
