@@ -1,6 +1,3 @@
----
-permalink: /index.html
----
 
 # 先升级 go 和 git
 
