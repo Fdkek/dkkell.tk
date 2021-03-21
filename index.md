@@ -1,8 +1,40 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/CHHQ1/hq/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# 升级go
+## 先删除 
+rm -rf /usr/local/go
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 再看看删除干净没？
+root@goorm:/workspace/golang# go version
+
+bash: /usr/local/go/bin/go: No such file or directory
+
+root@goorm:/workspace/golang# /usr/local/go/bin/go version
+
+bash: /usr/local/go/bin/go: No such file or directory
+
+## 重新下载新的二进制
+wget https://dl.google.com/go/go1.15.10.linux-amd64.tar.gz
+
+## 解压
+sudo tar -xzf go1.15.10.linux-amd64.tar.gz -C /usr/local
+
+### 或者用下面命令
+
+tar -C /usr/local -xzf go1.15.10.linux-amd64.tar.gz
+
+### 最后修改/etc/profile文件加入如下内容：
+
+export PATH=$PATH:/usr/local/go/bin
+
+### 执行.或者source命令，重新读取配置文件
+
+source /etc/profile
+
+# Markdown 链接语法
+
+You can use the [editor on GitHub](https://github.com/CHHQ1/hq/edit/gh-pages/index.md) 
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site,
 
 ### Markdown
 
@@ -30,20 +62,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CHHQ1/hq/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CHHQ1/hq/settings).
 
-# 升级go
-## 先删除 
-rm -rf /usr/local/go
-
-## 再看看删除干净没？
-root@goorm:/workspace/golang# go version
-
-bash: /usr/local/go/bin/go: No such file or directory
-
-root@goorm:/workspace/golang# /usr/local/go/bin/go version
-
-bash: /usr/local/go/bin/go: No such file or directory
-
-## 重新下载新的二进制
-wget https://dl.google.com/go/go1.15.10.linux-amd64.tar.gz
+The name of this theme is saved in the Jekyll `_config.yml` configuration file.
