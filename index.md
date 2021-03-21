@@ -1,5 +1,21 @@
 
 # 升级 go 和 git
+
+编译一个开源项目的过程中，报错：
+```
+undefined: strings.ReplaceAll 
+undefined: os.UserHomeDir
+```
+使用如下命令检查golang的版本：
+```
+go version
+```
+显示的结果为：
+```
+go version go1.11.5 linux/amd64
+```
+需要升级golang的版本，
+
 ## 先删除
 ```
 rm -rf /usr/local/go
@@ -22,6 +38,10 @@ sudo tar -xzf go1.15.10.linux-amd64.tar.gz -C /usr/local
 ### 或者用下面命令
 ```
 tar -C /usr/local -xzf go1.15.10.linux-amd64.tar.gz
+```
+### 建立软链接
+```
+sudo ln -s /usr/local/go/bin/* /usr/bin/
 ```
 ### 最后修改/etc/profile文件加入如下内容：
 ```
