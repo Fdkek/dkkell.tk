@@ -37,6 +37,34 @@ mkdir -p $HOME/go-work/pkg
 mkdir -p $HOME/go-work/bin
 ```
 
+3. 配置环境变量
+
+使用 vi 编辑环境变量配置文件 $HOME/.bashrc ：
+```
+sudo vim $HOME/.bashrc
+```
+进入编辑界面后 **Shift+G** 跳转至尾行，按 o 新插入一行，输入如下：
+```
+export GOROOT=/usr/local/go  #设置为go安装的路径，有些安装包会自动设置默认的goroot
+export GOPATH=$HOME/go-work   #默认的Golang项目的工作空间
+export GOBIN=$GOPATH/bin   # go install命令生成的可执行文件的路径
+export PATH=$PATH:$GOROOT/bin:$GOBIN
+```
+之后按 Esc 键 :wq 保存退出。使配置文件生效：
+```
+source $HOME/.bashrc　　#注：这里不要用sudo执行，sudo无该命令
+```
+可运行 **go env** 查看gol环境变量：
+```
+go env
+```
+正常输出则说明配置成功，同时可对环境变量设置进行校验。
+
+注：中国大陆需要设置代理
+```
+$ go env -w GO111MODULE=on
+$ go env -w GOPROXY=https://goproxy.cn,direct
+```
 
 
 This is my GitHub Pages.
