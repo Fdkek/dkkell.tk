@@ -1,6 +1,8 @@
 
 # 升级 go 和 git
 
+点击[README](https://github.com/CHHQ1/hq/edit/gh-pages/README.md) 
+
 编译一个开源项目的过程中，报错：
 ```
 undefined: strings.ReplaceAll 
