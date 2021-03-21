@@ -32,6 +32,14 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CHHQ1/hq/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+# 升级go
+##先删除 
+rm -rf /usr/local/go
+##再看看删除干净没？
+root@goorm:/workspace/golang# go version
+bash: /usr/local/go/bin/go: No such file or directory
+root@goorm:/workspace/golang# /usr/local/go/bin/go version
+bash: /usr/local/go/bin/go: No such file or directory
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+##重新下载新的二进制
+wget https://dl.google.com/go/go1.15.10.linux-amd64.tar.gz
