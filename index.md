@@ -33,13 +33,13 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CHHQ1/hq/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 # 升级go
-##先删除 
+## 先删除 
 rm -rf /usr/local/go
-##再看看删除干净没？
+## 再看看删除干净没？
 root@goorm:/workspace/golang# go version
 bash: /usr/local/go/bin/go: No such file or directory
 root@goorm:/workspace/golang# /usr/local/go/bin/go version
 bash: /usr/local/go/bin/go: No such file or directory
 
-##重新下载新的二进制
+## 重新下载新的二进制
 wget https://dl.google.com/go/go1.15.10.linux-amd64.tar.gz
