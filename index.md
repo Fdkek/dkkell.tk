@@ -33,7 +33,7 @@ bash: /usr/local/go/bin/go: No such file or directory
 ```
 ## 重新下载新的go二进制安装文件
 ```
-wget https://dl.google.com/go/go1.15.10.linux-amd64.tar.gz
+wget https://golang.org/dl/go1.15.10.linux-amd64.tar.gz
 ```
 ## 解压
 ```
