@@ -1,5 +1,5 @@
 
-# 点击[Readme](https://dkkell.tk/readme.html) 
+# 回到[Readme](https://dkkell.tk/readme.html) 
 # 使用vscode进行go开发时报错，升级旧版本go记录
 
 ```
