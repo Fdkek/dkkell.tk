@@ -1,5 +1,6 @@
 
-# [Readme](https://dkkell.tk/readme.html) 
+# [关于我](https://dkkell.tk/readme.html) 
+
 # [改写go环境变量](https://dkkell.tk/update.html) 
 
 
