@@ -1,4 +1,4 @@
-# 回到[主页](https://dkkell.tk/index.html) 
+# [回到主页](https://dkkell.tk/index.html) 
 # 使用goormIDE学习go，更新git和go
 
 
