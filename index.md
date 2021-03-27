@@ -1,6 +1,6 @@
 
 # [Readme](https://dkkell.tk/readme.html) 
-# [更新GO](https://dkkell.tk/update.html) 
+# [改写go环境变量](https://dkkell.tk/update.html) 
 
 
 # 使用vscode进行go开发时报错，升级旧版本go记录
