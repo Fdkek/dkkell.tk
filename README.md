@@ -1,5 +1,5 @@
 
-# 采用在线IDE，更新git/更新旧的go版本
+# 使用goormIDE学习go，更新git和go
 点击[主页](https://github.com/CHHQ1/hq/blob/gh-pages/index.md) 
 
 今天学习用goormIDE在线IDE学习git，原来在上家公司学了一点，今天重拾起来：
@@ -19,7 +19,23 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
-# 设置 Go 开发环境
+# 安装 GO 二进制安装文件
+首先到go官网下载go的安装包，解压，放到指定目录（这里放到了/usr/local/下了）
+
+```
+wget https://golang.org/dl/go1.15.10.linux-amd64.tar.gz
+```
+## 解压
+```
+sudo tar -xzf go1.15.10.linux-amd64.tar.gz -C /usr/local
+```
+## 或者用下面命令
+```
+tar -C /usr/local -xzf go1.15.10.linux-amd64.tar.gz
+
+```
+
+# 配置 Go 开发环境
 1. 创建**工作空间**
 2. Go代码必须放在**工作空间**内。
 
@@ -36,6 +52,7 @@ mkdir -p $HOME/go-work/src
 mkdir -p $HOME/go-work/pkg
 mkdir -p $HOME/go-work/bin
 ```
+
 
 3. 配置环境变量
 
@@ -54,6 +71,24 @@ export PATH=$PATH:$GOROOT/bin:$GOBIN
 ```
 source $HOME/.bashrc　　#注：这里不要用sudo执行，sudo无该命令
 ```
+
+4. 也可以 在/etc/profile里设置环境变量
+
+## 建立软链接
+```
+sudo ln -s /usr/local/go/bin/* /usr/bin/
+```
+## 修改/etc/profile文件加入如下内容：
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+## 执行.或者source命令，重新读取配置文件
+```
+source /etc/profile
+```
+
+# 查看最终效果
+
 可运行 **go env** 查看gol环境变量：
 ```
 go env
