@@ -1,7 +1,10 @@
 
+# 点击[Readme](https://dkkell.tk/readme.html) 
 # 使用vscode进行go开发时报错，升级旧版本go记录
 
+```
 点击[README](https://github.com/CHHQ1/hq/blob/gh-pages/README.md) 
+```
 
 [Index on GitHub](https://github.com/CHHQ1/hq/blob/gh-pages/index.md) 
 
