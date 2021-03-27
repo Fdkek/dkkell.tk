@@ -1,5 +1,6 @@
 # [回到主页](https://dkkell.tk/index.html) 
-## [改写go环境变量](https://dkkell.tk/update.html) 
+
+# [改写go环境变量](https://dkkell.tk/update.html) 
 
 # 使用goormIDE学习go，更新git和go
 
