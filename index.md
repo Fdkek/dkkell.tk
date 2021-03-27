@@ -1,5 +1,5 @@
 
-# 旧版本go升级
+# 使用vscode进行go开发时报错，升级旧版本go记录
 
 点击[README](https://github.com/CHHQ1/hq/edit/gh-pages/README.md) 
 
