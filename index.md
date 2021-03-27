@@ -21,6 +21,7 @@ go version go1.11.5 linux/amd64
 需要升级golang的版本，
 
 ## 先删除老版本go
+也可以不删除旧版本，安装安装新版本，这里记录的是当时的过程
 ```
 rm -rf /usr/local/go # r递归recursive, f强制force删除，并且不提示
 ```
