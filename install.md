@@ -32,9 +32,15 @@ ubuntu 安装 golang 示例
 
 # sudo apt-get remove golang-go
 # sudo apt-get remove --auto-remove golang-go
+# sudo apt install golang-go
 # 切换到用户目录
 
-cd ~
+
+# fetching the latest version:
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install golang-go
+
 下载
 
 wget https://studygolang.com/dl/golang/go1.12.5.linux-amd64.tar.gz
