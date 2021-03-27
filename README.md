@@ -64,8 +64,9 @@ sudo vim $HOME/.bashrc
 ```
 export GOROOT=/usr/local/go  #设置为go安装的路径，有些安装包会自动设置默认的goroot
 export GOPATH=$HOME/go-work   #默认的Golang项目的工作空间
-export GOBIN=$GOPATH/bin   # go install命令生成的可执行文件的路径
-export PATH=$PATH:$GOROOT/bin:$GOBIN
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+
+# export GOBIN=$GOPATH/bin   # go install命令生成的可执行文件的路径
 ```
 之后按 Esc 键 :wq 保存退出。使配置文件生效：
 ```
