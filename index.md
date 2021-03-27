@@ -1,9 +1,9 @@
 
 # 使用vscode进行go开发时报错，升级旧版本go记录
 
-点击[README](https://github.com/CHHQ1/hq/edit/gh-pages/README.md) 
+点击[README](https://github.com/CHHQ1/hq/blob/gh-pages/README.md) 
 
-[editor on GitHub](https://github.com/CHHQ1/hq/edit/gh-pages/index.md) 
+[Index on GitHub](https://github.com/CHHQ1/hq/edit/gh-pages/index.md) 
 
 编译一个开源项目的过程中，报错：
 ```
