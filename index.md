@@ -1,5 +1,5 @@
 
-# 先升级 go 和 git
+# 旧版本go升级
 
 点击[README](https://github.com/CHHQ1/hq/edit/gh-pages/README.md) 
 
@@ -20,9 +20,9 @@ go version go1.11.5 linux/amd64
 ```
 需要升级golang的版本，
 
-## 先删除
+## 先删除老版本go
 ```
-rm -rf /usr/local/go
+rm -rf /usr/local/go # r递归recursive, f强制force删除，并且不提示
 ```
 ## 再看看删除干净没？
 ```
