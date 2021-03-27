@@ -1,8 +1,9 @@
 # [回到主页](https://dkkell.tk/index.html) 
+## [改写go环境变量](https://dkkell.tk/update.html) 
+
 # 使用goormIDE学习go，更新git和go
 
 
-[改写go环境变量](https://dkkell.tk/update.html) 
 
 今天学习用goormIDE在线IDE学习git，原来在上家公司学了一点，今天重拾起来：
 
