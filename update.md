@@ -3,7 +3,7 @@
 ```
 go env -w GOPATH=我们自己的工作区路径
 ```
-工作区路径 就设为 /Users/naonao/go
+工作区路径 就设为 /usr/naonao/go
 
 # 打开GoMOD，再配置代理
 在这里感谢「七牛云」为我们中国区的Golang开发者提供的代理服务
@@ -23,3 +23,15 @@ linux:   /root/.config/go/env       
 
 可能是用root用户安装的，其他用户安装的可以看看 home目录下的 .config/go/env
 
+# 删除go
+···
+sudo rm -rf /usr/local/go     #删除go
+···
+将下载的包解压至 /usr/local 目录   
+···
+tar -C /usr/local -xzf go1.4.linux-amd64.tar.gz
+···
+将 /usr/local/go/bin 目录添加至PATH环境变量
+···
+export PATH=$PATH:/usr/local/go/bin
+···
