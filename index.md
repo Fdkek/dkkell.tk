@@ -3,7 +3,7 @@
 
 点击[README](https://github.com/CHHQ1/hq/blob/gh-pages/README.md) 
 
-[Index on GitHub](https://github.com/CHHQ1/hq/edit/gh-pages/index.md) 
+[Index on GitHub](https://github.com/CHHQ1/hq/blob/gh-pages/index.md) 
 
 编译一个开源项目的过程中，报错：
 ```
