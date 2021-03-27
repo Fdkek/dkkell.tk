@@ -1,3 +1,4 @@
+点击[主页](https://dkkell.tk/index.html) 
 # 改写go环境变量
 使用 go env -w命令来写环境变量：
 ```
