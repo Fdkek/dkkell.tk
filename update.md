@@ -63,6 +63,13 @@ export PATH=$PATH:$GOPATH:$GOBIN:$GOPATH
 执行go env，测试配置是否成功。
 
 # 删除 go 版本升级
+
+## 卸载旧版可以通过 apt命令
+
+sudo apt-get remove golang-go
+sudo apt-get remove --auto-remove golang-go
+
+## 卸载旧版也可以直接删除
 ```
 sudo rm -rf /usr/local/go     #删除go
 ```
