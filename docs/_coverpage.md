@@ -8,4 +8,4 @@
 [Docsify docsifyjs](https://github.com/docsifyjs/docsify/)
 
 <!-- 背景色 -->
-![color](#2f4253)
+![color](#DAF7A6)
