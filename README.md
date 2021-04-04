@@ -5,7 +5,7 @@ This is to be deployed to GitHub Pages.
 
 见下图，激活成功  
 
-![Labview激活成功](./labview)
+![Labview激活成功](./labview.png)
 
 这里要吐槽一下，既然是社区版，为什么还要激活呢？   
 人家Visual Studio Community怎么不需要激活呢？   
