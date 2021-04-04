@@ -1,4 +1,4 @@
-This is a nodejs based docsified repo.
+This is a nodejs based docsified repo.  
 This is to be deployed to GitHub Pages.
 
 # N年来第一次用上了正版的NI Labview
