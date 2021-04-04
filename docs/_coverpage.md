@@ -1,6 +1,6 @@
 ![logo](logo.png)
 # 我的个人文档网站
-> 一个神奇的文档网站生成巩固
+> 一个神奇的文档网站生成工具
 * Simple and lightweight (~12kb gzipped)
 * Multiple themes
 * Not build static html files
@@ -8,4 +8,4 @@
 [Docsify docsifyjs](https://github.com/docsifyjs/docsify/)
 
 <!-- 背景色 -->
-![color](#DAF7A6)
+<!-- ![color](#DAF7A6)-->
