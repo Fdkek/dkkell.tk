@@ -1,6 +1,7 @@
 # Markdown基础练习
-学了一段时间，有一个疑问：   
-可以直接用Markdown工具Typora写邮件吗？   
+学了一段时间Markdown，mark一个疑问：   
+可以直接用Markdown工具Typora写邮件吗？    
+我记得邮件是采用base64编码的   
 ## 第一主题：插入文字
 
 普通文字,单行文字
