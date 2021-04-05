@@ -97,9 +97,13 @@ color=gray
 ### 字体、字号与颜色 (内嵌HTML语法)
 
 <font face="黑体">我是黑体字</font>
+
 <font face="微软雅黑">我是微软雅黑</font>
+
 <font face="STCAIYUN">我是华文彩云</font>
+
 <font color=red size=5 face="微软雅黑" >内容:</font> 刚学markdown.
+
 <font color=#00ffff size=6>color=#00ffff</font>
 <font color=gray size=10>color=gray</font>
 
