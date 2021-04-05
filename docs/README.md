@@ -78,4 +78,29 @@ file.softspace    为0表示在输出一数据后，要加上一个空格符�
 
 ![eDP图片](./eDP.png)
 
+## 为什么markdown不支持字号和字体颜色
+
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过类似HTML的标记语法，它可以使普通文本内容具有一定的格式。
+
+但是它本身是不支持修改字体、字号与颜色等功能的！
+
+Markdown 支持内嵌 HTML 标签。
+```
+我是黑体字
+我是微软雅黑
+我是华文彩云
+内容: 刚学markdown.
+color=#00ffff
+color=gray
+```
+
+### 字体、字号与颜色 (内嵌HTML语法)
+
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=red size=5 face="微软雅黑" >内容:</font> 刚学markdown.
+<font color=#00ffff size=6>color=#00ffff</font>
+<font color=gray size=10>color=gray</font>
+
 
