@@ -1,6 +1,7 @@
 # Markdown基础练习
 
 [VScode配置GO语言服务器error记录](gopls_error.md)
+
 [WSL配置记录](WSL.md)
 
 学了一段时间Markdown，mark一个疑问：   
