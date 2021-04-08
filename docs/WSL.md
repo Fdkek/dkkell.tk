@@ -13,13 +13,14 @@ System has not been booted with systemd as init system (PID 1). Can't operate. F
 管理员身份打开PowerShell，使用命令： 对服务 LxssManager 进行重启。
 ```
 Get-Service LxssManager | Restart-Service 
+```
 
 ## 方法二：
 使用 net stop 和 net start命令?
 ```
 //以管理员权限运行cmd
->net stop LxssManager	//停止
->>net start LxssManager	//启动
+net stop LxssManager	//停止
+net start LxssManager	//启动
 ```
 
 ## 为什么不推荐用控制台的net stop 和 net start命令?
