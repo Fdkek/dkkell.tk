@@ -5,7 +5,7 @@
 * Multiple themes
 * Not build static html files
 
-[Docsify docsifyjs](https://github.com/docsifyjs/docsify/)
-
+[Docsify / Docsifyjs](https://github.com/docsifyjs/docsify/)
+[Get Started](README.md)
 <!-- 背景色 -->
 <!-- ![color](#DAF7A6)-->
