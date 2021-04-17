@@ -95,13 +95,17 @@
  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 	
 
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+  <!--插入“gitalk评论”模块-->
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="js/md5.min.js"></script>
 <script>
   const gitalk = new Gitalk({
     clientID: '48caecbe92163749ab53',
     clientSecret: '29038a919544769f72c836a4495efc32d96ec424',
-    repo: 'CHHQ1',
+    repo: 'dkkell.tk',
     owner: 'CHHQ1',
     admin: ['CHHQ1'],
     // facebook-like distraction free mode
