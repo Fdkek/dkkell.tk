@@ -55,36 +55,24 @@
 	  repo: 'https://github.com/CHHQ1/dkkell.tk/',
       // 显示源码地址
 	    
-    search: 'auto', 
-
-    // 配置search
+	    
+    search: 'auto',
+   // 配置search
     search: {
-      maxAge: 86400000, 
-      paths: [], 
-      placeholder: 'Type to search',
-
-      
-      placeholder: {
-        '/zh-cn/': '搜索',
-        '/': 'Type to search'
-      },
-
-      noData: 'No Results!',
-
-      noData: {
-        '/zh-cn/': '找不到结果',
-        '/': 'No Results'
-      },
-
-      depth: 2,
-
-      hideOtherSidebarContent: false,
-      namespace: 'website-1',
-    }
-
+       maxAge: 86400000,
+       paths: '/',
+       placeholder: '搜索...',
+       noData: '未找到结果，换个搜索词试试？',
+       namespace: 'XhemjBlog',
+    },
+    //ga: 'UA-XXXXX-Y'就是谷歌统计的编号	    
+    ga: 'UA-XXXXX-Y'
+	    
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>	
 </body>
 </html>
