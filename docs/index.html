@@ -25,7 +25,8 @@
   </div>
   <script>
     window.$docsify = {
-	  // 入口文件改为 /home.md
+	    
+	// 入口文件改为 /home.md
       homepage: 'README.md',
 	  //文档标题，会显示在侧边栏顶部。 
       name: '回到封面',
@@ -51,7 +52,43 @@
 	    
       coverpage: true,
       onlyCover: true,
-	  repo: 'https://github.com/CHHQ1/dkkell.tk/'
+	  repo: 'https://github.com/CHHQ1/dkkell.tk/',
+      // 显示源码地址
+	    
+    search: 'auto', 
+
+    search : [
+      '/',            // => /README.md
+      //'/guide',       // => /guide.md
+      //'/get-started', // => /get-started.md
+      //'/zh-cn/',      // => /zh-cn/README.md
+    ],
+
+    // 配置search
+    search: {
+      maxAge: 86400000, 
+      paths: [], 
+      placeholder: 'Type to search',
+
+      
+      placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+
+      noData: 'No Results!',
+
+      noData: {
+        '/zh-cn/': '找不到结果',
+        '/': 'No Results'
+      },
+
+      depth: 2,
+
+      hideOtherSidebarContent: false,
+      namespace: 'website-1',
+    }
+
     }
   </script>
   <!-- Docsify v4 -->
